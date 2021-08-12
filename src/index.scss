@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+    background-color: #c5deed;
+}
+
+.lorem-container {
+  max-width: 800px;
+  margin: 50px auto;
+  text-align: center;
+
+  h1 {
+    padding: 20px;
+  }
+
+  .lorem-input {
+    width: 40%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 50px;
+
+    input {
+      background-color: #fff;
+      border: none;
+      font-size: 20px;
+      padding: 5px;
+      width: 50px;
+    }
+
+    .lorem-btn {
+      background: #285bd1;
+      color: #fff;
+      text-transform: uppercase;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+    }
+  }
+
+  .lorem-text {
+    p {
+      padding-bottom: 30px;
+    }
+  }
+}
